@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="shortcut icon" href="./img/favicon.PNG">
+    <!-- Pixel Code for https://tracking.venturify.at/ -->
+<script async src="https://tracking.venturify.at/pixel/K5lSIcJOGscD93st"></script>
+<!-- END Pixel Code -->
+    <!-- Compressed CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/foundation-sites@6.6.3/dist/css/foundation.min.css" integrity="sha256-ogmFxjqiTMnZhxCqVmcqTvjfe1Y/ec4WaRj/aQPvn+I=" crossorigin="anonymous">
+
+<!-- Compressed JavaScript -->
+<script src="https://cdn.jsdelivr.net/npm/foundation-sites@6.6.3/dist/js/foundation.min.js" integrity="sha256-pRF3zifJRA9jXGv++b06qwtSqX1byFQOLjqa2PTEb2o=" crossorigin="anonymous"></script>
+
+<!-- UIkit CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.6.1/dist/css/uikit.min.css" />
+
+<!-- UIkit JS -->
+<script src="https://cdn.jsdelivr.net/npm/uikit@3.6.1/dist/js/uikit.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/uikit@3.6.1/dist/js/uikit-icons.min.js"></script>
+
+    <meta charset="utf-8">
+    <title>Development Portfolio</title>
+  </head>
+
+  <header>
+    <div class="uk-inline" style="position: fixed; top: 0px; left: 0px;">
+        <a href="./index.html"><button class="uk-button uk-button-secondary" type="button">Home</button></a>
+
+        <button class="uk-button uk-button-secondary" type="button" >Menu</button>
+        <div uk-dropdown="mode: click">
+          <p><a href="https://dev.jacobborgprogramming.net/" target="_blank"><button class="uk-button uk-button-text">Code</button></a></p>
+
+          <p><a href="./photography.html"><button class="uk-button uk-button-text">Photography Portfolio</button></a></p>
+
+          <p><a href="./development.html"><button class="uk-button uk-button-text">Development Portfolio</button></a></p>
+
+          <p><a href="./privacy.html"><button class="uk-button uk-button-text">Privacy</button></a></p>
+        </div>
+
+    </div>
+  </header>
+
+
+  <body>
+    <div name="header" class="uk-height-viewport uk-background-cover uk-light uk-flex" uk-parallax="bgy: +100; " style="background-image: url('img/code.jpg');">
+
+        <div class="uk-width-1-2@m uk-text-center uk-margin-auto uk-margin-auto-vertical"><h1>Development Portfolio</h1>
+          <a class="uk-button uk-button-text" href="#next1" uk-scroll>Next</a>
+        </div>
+
+    </div>
+    <a id = "next1"></a>
+
+
+    <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slideshow="ratio: false">
+
+        <ul class="uk-slideshow-items uk-height-viewport" >
+            <li>
+                <img src="img/bcs-lock-promo.jpg" alt="" uk-cover>
+                <div class="uk-position-center uk-position-small">
+
+                  <h3>BCS Lock</h3>
+                  <p>BCS Lock is a Python3 based password generation application for MacOS.</p>
+                  <p><code>Coming soon</code></p>
+
+                </div>
+            </li>
+            <li>
+                <img src="img/atomic.jpg" alt="" uk-cover>
+                <div class="uk-position-center uk-position-small">
+
+                  <h3>Atomic Password Generator</h3>
+                  <p>Atomic is a JavaScript based password generator for websites.</p>
+                  <p><a class="uk-button uk-button-text" href="https://dev.jacobborgprogramming.net/atomicwebsite/" target="_blank"><code>Available now</code></a></p>
+
+                </div>
+            </li>
+
+            <li>
+                <img src="https://images.unsplash.com/photo-1586769852836-bc069f19e1b6?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="" uk-cover>
+                <div class="uk-position-center uk-position-small">
+
+                  <h3>BCS Search</h3>
+                  <p>BCS Search is a client-side processing web search engine. I originally developed BCS Search as a site search feature for my websites.</p>
+                  <p><a class="uk-button uk-button-text" href="https://github.com/Borg-Creative-Studios/search" target="_blank"><code>View source</code></a></p>
+
+                </div>
+            </li>
+
+
+            <li>
+                <img src="./img/groceries2.jpg" alt="" uk-cover>
+                <div class="uk-position-center uk-position-small">
+
+                  <h3>Grocery Catcher</h3>
+                  <p>Grocery Catcher is an HTML5 game designed to run on Windows 10 and websites.</p>
+                  <p><a class="uk-button uk-button-text" href="https://gamejolt.com/games/grocerycatcher/523501" target="_blank"><code>Available now</code></a></p>
+
+                </div>
+            </li>
+        </ul>
+
+        <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slideshow-item="previous"></a>
+        <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slideshow-item="next"></a>
+
+    </div>
+
+
+  </body>
+</html>
