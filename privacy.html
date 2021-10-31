@@ -20,6 +20,26 @@
 <script src="https://cdn.jsdelivr.net/npm/uikit@3.6.1/dist/js/uikit.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/uikit@3.6.1/dist/js/uikit-icons.min.js"></script>
 
+
+<!-- Matomo -->
+<script>
+  var _paq = window._paq = window._paq || [];
+  /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+  _paq.push(["setDoNotTrack", true]);
+  _paq.push(["disableCookies"]);
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="https://analytics.borgcreative.com/tracking/";
+    _paq.push(['setTrackerUrl', u+'matomo.php']);
+    _paq.push(['setSiteId', '8']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<!-- End Matomo Code -->
+
+
     <meta charset="utf-8">
     <title>Privacy</title>
   </head>
@@ -31,6 +51,7 @@
         <button class="uk-button uk-button-secondary" type="button" >Menu</button>
         <div uk-dropdown="mode: click">
           <p><a href="http://shop.jacobborgprogramming.net" target="_blank"><button class="uk-button uk-button-text">Shop</button></a></p>
+          <p><a href="./art.html"><button class="uk-button uk-button-text">Art Portfolio</button></a></p>
 
           <p><a href="./photography.html"><button class="uk-button uk-button-text">Photography Portfolio</button></a></p>
 
@@ -59,11 +80,11 @@
     <article class="uk-article" style="margin:10mm;">
 
 
-        <p class="uk-article-meta">Updated on 17 December 2020</p>
+        <p class="uk-article-meta">Updated on 31 October 2021</p>
 
         <p class="uk-text-lead">I never share information collected from this site.</p>
 
-        <p>I do utilize Venturify Tracking for visits, and that is it. Private information (IP, exact location, etc) is not recorded.</p>
+        <p>I do utilize Venturify Tracking and BCS Analytics for visits, and that is it. Private information (IP, exact location, etc) is never recorded nor shared recorded.</p>
 
 <p> <a href="./index.html"><img src="./img/jb.png" width="200px" alt="Logo"></a> </p>
 
