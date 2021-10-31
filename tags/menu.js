@@ -3,5 +3,5 @@ function menu(){
 }
 
 function footer(){
-  document.getElementById("footer").innerHTML = '<nav class="uk-navbar-container" uk-navbar><div class="uk-navbar-center"><ul class="uk-navbar-nav"><li class=""><a href="./index.html"> <img src="./img/jb.png" width="90px" alt="JB logo"> </a></li></ul></div></nav>'
+  document.getElementById("footer").innerHTML = '<nav class="uk-navbar-container" uk-navbar><div class="uk-navbar-center"><ul class="uk-navbar-nav"> <li><a style="margin-right: 5px;" href="https://www.linkedin.com/in/jacob-borg-94376b196/" target="_blank"> <img src="./img/linkedin.svg" alt=""> </a></li>   <li><a style="margin-right: 5px;" href="https://twitter.com/jborg_arts" target="_blank"> <img src="./img/twitter.svg" alt=""> </a></li> <li class=""><a href="https://www.instagram.com/jbsciencegeek/" target="_blank"> <img src="./img/instagram.svg" alt=""> </a></li>  </ul></div></nav>'
 }
