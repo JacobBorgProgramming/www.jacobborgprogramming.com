@@ -55,31 +55,15 @@
 
     <meta charset="utf-8">
     <title>Photography Portfolio</title>
+    <script src="./tags/menu.js" charset="utf-8"></script>
   </head>
 
   <header>
-    <div class="uk-inline" style="position: fixed; top: 0px; left: 0px;">
-        <a href="./index.html"><button class="uk-button uk-button-secondary" type="button">Home</button></a>
-
-        <button class="uk-button uk-button-secondary" type="button" >Menu</button>
-        <div uk-dropdown="mode: click">
-          <p><a href="http://shop.jacobborgprogramming.net" target="_blank"><button class="uk-button uk-button-text">Shop</button></a></p>
-          <p><a href="./art.html"><button class="uk-button uk-button-text">Art Portfolio</button></a></p>
-
-          <p><a href="./photography.html"><button class="uk-button uk-button-text">Photography Portfolio</button></a></p>
-
-          <p><a href="./development.html"><button class="uk-button uk-button-text">Development Portfolio</button></a></p>
-
-          <p><a href="./privacy.html"><button class="uk-button uk-button-text">Privacy</button></a></p>
-          <p><a style="margin-right: 5px;" href="https://www.linkedin.com/in/jacob-borg-94376b196/" target="_blank"> <img src="./img/linkedin.svg" alt=""> </a><a style="margin-right: 5px;" href="https://twitter.com/jborg_arts" target="_blank"> <img src="./img/twitter.svg" alt=""> </a><a href="https://www.instagram.com/jborg_arts/" target="_blank"> <img src="./img/instagram.svg" alt=""> </a></p>
-
-        </div>
-
-    </div>
+    <div id="menu"></div>
   </header>
 
 
-  <body>
+  <body onload="menu(), footer()">
     <div name="header" class="uk-height-viewport uk-background-cover uk-light uk-flex" uk-parallax="bgy: +100; " style="background-image: url('img/galaxysedge3.PNG');">
 
         <div class="uk-width-1-2@m uk-text-center uk-margin-auto uk-margin-auto-vertical"><h1>Photography Portfolio</h1>
@@ -158,4 +142,6 @@
 
 
   </body>
+  <footer id="footer"></footer>
+
 </html>
